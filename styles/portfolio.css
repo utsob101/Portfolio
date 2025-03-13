@@ -1,0 +1,27 @@
+ /* common shared styles */
+ body{
+   
+   .open-sans-<uniquifier> {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+    }
+    .text-primary{
+      color: red;
+    }
+ 
+ /*nav related styles  */
+ nav{
+    display: flex;
+ }
+ nav li {
+   list-style: none;
+   margin-right: 50;
+ }
+ nav a {
+   text-decoration: none;
+ }
